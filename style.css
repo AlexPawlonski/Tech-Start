@@ -1,0 +1,52 @@
+/*::::::::::::::::::::::::::::::::GENERAL:::::::::::::::::::::::::::::::::::::::::::::*/
+body{
+    margin: 0;
+    padding: 0;
+    color: chartreuse;
+    background-color: rgb(110, 110, 110);
+    font-family: "initialFont";
+}
+#wrapper{
+    margin: 0 auto;
+    padding: 0;
+    background-color: rgb(20, 20, 20);
+    max-width: 1200px;
+    height: 100vh;
+}
+p{
+    margin: 0;
+}
+@font-face {
+	font-family: "initialFont";
+	src: url('data/font/Minecraft.ttf');
+}
+@font-face {
+	font-family: "UpFont";
+	src: url('data/font/Minecraft.ttf');
+}
+/*:::::::::::::::::::::::::::::ZONE INPUT ::::::::::::::::::::::::::::::::::::::::::::::*/
+#input{
+    display: flex;
+    font-size: 20px;
+    max-width: 1200px;
+    align-items: center;
+    bottom: 0;
+    position: absolute;
+}
+#input label{
+    padding: 0 3px ;
+}
+
+#zoneInput{
+    font-size: 20px;
+    font-family: "initialFont";
+    color: chartreuse;
+    background-color: rgb(20, 20, 20);
+    border: none;
+}
+
+/*::::::::::::::::::::::::::::::::::GAME :::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+#game{
+    padding: 3px;
+    height: 95vh;
+}
